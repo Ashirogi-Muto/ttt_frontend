@@ -57,10 +57,7 @@ export default {
 				this.errorMessage = 'Please input a number greater than 0';
 				return
 			}
-			const config = {
-				headers: { "content-type": "application/x-www-form-urlencoded" }
-			};
-			axios.post('http://localhost:3000/words', {count: this.userCount}, config)
+			axios.post('http://localhost:3002/words', {count: this.userCount})
 				.then(response => {
 					console.log(response);
 				})

@@ -11,3 +11,12 @@
 > If validation does not fail send a post request to server with the number count.
 
 > Display the response in tabular format.
+
+## Screenshots
+
+![Screenshot 1](https://imgur.com/KCb8Eby)
+![Screenshot 2](https://imgur.com/uFKG0Ad)
+![Screenshot 3](https://imgur.com/A6ZwRrs)
+![Screenshot 4](https://imgur.com/WyKrdJF)
+![Screenshot 5](https://imgur.com/0GtEW1D)
+

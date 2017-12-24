@@ -1,21 +1,13 @@
-# ttt
+# Terribly Tiny Tales Task
 
-> A Vue.js project
+> A VueJS Project
 
-## Build Setup
+> Used Materialize CSS for front end styling
 
-``` bash
-# install dependencies
-npm install
+> Used AXIOS for HTTP calls
 
-# serve with hot reload at localhost:8080
-npm run dev
+> Flow:- Take number inout from user, check for non zeroness and negativity.
 
-# build for production with minification
-npm run build
+> If validation does not fail send a post request to server with the number count.
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+> Display the response in tabular format.

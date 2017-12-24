@@ -14,9 +14,9 @@
 
 ## Screenshots
 
-![Screenshot 1](https://raw.githubusercontent.com/Ashirogi-Muto/ttt_frontend/master/TTT 1.png)
-![Screenshot 2](https://imgur.com/uFKG0Ad)
-![Screenshot 3](https://imgur.com/A6ZwRrs)
-![Screenshot 4](https://imgur.com/WyKrdJF)
-![Screenshot 5](https://imgur.com/0GtEW1D)
+![Screenshot 1](https://raw.githubusercontent.com/Ashirogi-Muto/ttt_frontend/master/TTT1.png)
+![Screenshot 2](https://raw.githubusercontent.com/Ashirogi-Muto/ttt_frontend/master/TTT2.png)
+![Screenshot 3](https://raw.githubusercontent.com/Ashirogi-Muto/ttt_frontend/master/TTT3.png)
+![Screenshot 4](https://raw.githubusercontent.com/Ashirogi-Muto/ttt_frontend/master/TTT4.png)
+![Screenshot 5](https://raw.githubusercontent.com/Ashirogi-Muto/ttt_frontend/master/TTT5.png)
 

@@ -11,7 +11,7 @@
 					<div class="input-field col s6 offset-s3">
 						<a @click="submitUserData" class="waves-effect waves-light btn">Submit</a>
 					</div>
-					<div class="input-field col s6 offset-s3">
+					<div v-if="isDataAvailable" class="input-field col s6 offset-s3">
 						<table class="bordered responsive-table highlight centered">
 							<thead>
 								<tr>
@@ -20,9 +20,9 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td>I</td>
-									<td>2</td>
+								<tr v-for="(item, index) in wordsData" :key="index">
+									<td>{{item[0]}}</td>
+									<td>{{item[1]}}</td>
 								</tr>
 							</tbody>
 						</table>
@@ -43,7 +43,8 @@ export default {
 			isDataAvailable: false,
 			userCount: 1,
 			isError: false,
-			errorMessage: ''
+			errorMessage: '',
+			wordsData : []
 		}
 	},
 	methods: {
@@ -57,11 +58,16 @@ export default {
 				this.errorMessage = 'Please input a number greater than 0';
 				return
 			}
-			axios.post('http://localhost:3002/words', {count: this.userCount})
+			axios.post('https://arcane-wildwood-86545.herokuapp.com/words', {count: this.userCount})
 				.then(response => {
-					console.log(response);
+					let { data } = response.data;
+					this.wordsData = data;
+					this.isDataAvailable = true;
 				})
 				.catch(error => {
+					this.isDataAvailable = false;
+					this.isError = true;
+					this.errorMessage = 'Oops! Looks like something went wrong!';
 					console.log(error);
 				});
 		}

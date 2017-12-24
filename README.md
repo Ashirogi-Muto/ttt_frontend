@@ -14,7 +14,7 @@
 
 ## Screenshots
 
-![Screenshot 1](https://imgur.com/KCb8Eby)
+![Screenshot 1](https://raw.githubusercontent.com/Ashirogi-Muto/ttt_frontend/master/TTT 1.png)
 ![Screenshot 2](https://imgur.com/uFKG0Ad)
 ![Screenshot 3](https://imgur.com/A6ZwRrs)
 ![Screenshot 4](https://imgur.com/WyKrdJF)
